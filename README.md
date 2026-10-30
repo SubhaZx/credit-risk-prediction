@@ -115,11 +115,11 @@ pandas, numpy, scikit-learn, matplotlib, seaborn, catboost, xgboost, lightgbm, s
 ### Installation
 ```bash
 # For local users, clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/SubhaZx/credit-risk-prediction.git
+cd credit-risk-prediction
 
 # Install dependencies
-pip install -r requirements.txt
+pip install pandas numpy scikit-learn matplotlib seaborn catboost xgboost lightgbm shap imbalanced-learn joblib
 
 # For Google Colab users (recommended)
 # Simply run the installation cell within the notebook:
